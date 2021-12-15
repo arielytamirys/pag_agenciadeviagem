@@ -1,0 +1,110 @@
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.grid-principal{
+text-align: center;
+}
+
+
+
+container-nav{
+
+    display: flex;
+
+
+}
+ 
+img.logo{
+
+height: 80%;
+
+
+}
+
+
+li {
+    list-style: none; 
+    margin: 50px;
+    display: inline;
+    font-size: 20px;
+}
+li a {
+    padding: 20px 25px; 
+    margin:0;
+   background-color: rgb(32, 8, 143);
+    text-decoration: none;
+    color:#FFF;
+   
+}
+
+li a:hover {
+    background: rgb(35, 143, 8);
+    color: #000; 
+    border-color: #000;
+}
+
+.anuncio-principal{
+    padding-top: 7%;
+}
+
+.pais-grid{
+    padding: 7%;
+}
+
+/* pagina Promoçao*/
+
+.titulos{
+
+padding: 5%;
+
+font-family: fantasy;
+font-size: 50px;
+
+}
+
+.img-promo{
+
+padding-top: 7%;
+
+
+}
+
+.texto-promo{
+
+    padding-top: 4%;
+    color: rgb(17, 16, 16);
+    font-family: monospace;
+
+}
+
+.promoçao-container{
+    padding: 7%;
+
+
+}
+
+.destino{
+
+    margin-top: 7%;
+
+}
+
+
+.contatos{
+
+margin-top: 20%;
+
+}
+
+footer {
+    margin-top: 7%;
+    height: 40px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
